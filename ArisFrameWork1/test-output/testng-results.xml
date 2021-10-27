@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57620" started-at="2021-10-26T05:15:03Z" finished-at="2021-10-26T05:16:00Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="19207" started-at="2021-10-26T05:15:03Z" finished-at="2021-10-26T05:15:22Z">
+      <class name="googleTest.TS001">
+        <test-method status="PASS" signature="STEP01()[pri:0, instance:googleTest.TS001@2b98378d]" name="STEP01" duration-ms="19170" started-at="2021-10-26T10:45:03Z" finished-at="2021-10-26T10:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- STEP01 -->
+      </class> <!-- googleTest.TS001 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="38351" started-at="2021-10-26T05:15:22Z" finished-at="2021-10-26T05:16:00Z">
+      <class name="googleTest.TS003">
+        <test-method status="FAIL" signature="step02()[pri:0, instance:googleTest.TS003@42e26948]" name="step02" duration-ms="10050" started-at="2021-10-26T10:45:45Z" finished-at="2021-10-26T10:45:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Google] but found [Googles]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Google] but found [Googles]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at googleTest.TS003.step02(TS003.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step02 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:googleTest.TS003@42e26948]" name="tearDown" is-config="true" duration-ms="5242" started-at="2021-10-26T10:45:55Z" finished-at="2021-10-26T10:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- googleTest.TS003 -->
+      <class name="googleTest.TS002">
+        <test-method status="PASS" signature="STEP01()[pri:0, instance:googleTest.TS002@1794d431]" name="STEP01" duration-ms="18409" started-at="2021-10-26T10:45:22Z" finished-at="2021-10-26T10:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- STEP01 -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:googleTest.TS002@1794d431]" name="tearDownMethod" is-config="true" duration-ms="4630" started-at="2021-10-26T10:45:41Z" finished-at="2021-10-26T10:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- googleTest.TS002 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

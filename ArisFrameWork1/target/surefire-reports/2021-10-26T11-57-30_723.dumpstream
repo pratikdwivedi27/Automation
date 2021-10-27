@@ -1,0 +1,4 @@
+# Created at 2021-10-26T11:57:32.193
+Boot Manifest-JAR contains absolute paths in classpath 'D:\PD_Workspace\ArisFrameWork1\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
